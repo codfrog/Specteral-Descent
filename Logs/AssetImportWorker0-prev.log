@@ -1,0 +1,358 @@
+Unity Editor version:    2022.1.17f1 (2d349551e475)
+Branch:                  2022.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H2026)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        12288 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/admin/Documents/Матвей/SpectralDescent
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50314
+Successfully changed project path to: /Users/admin/Documents/Матвей/SpectralDescent
+/Users/admin/Documents/Матвей/SpectralDescent
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 169.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.17f1 (2d349551e475)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/admin/Documents/Матвей/SpectralDescent/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+iMac preferred device: NVIDIA GeForce GT 640M (high power)
+Metal devices available: 1
+0: NVIDIA GeForce GT 640M (high power)
+Using device NVIDIA GeForce GT 640M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 640M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56469
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002339 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 154.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1455ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1079ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+				TypeCache.Initialize (303ms)
+					TypeCache.ScanAssembly (301ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004443 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Матвей/SpectralDescent/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/admin/Documents/Матвей/SpectralDescent/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2433ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1924ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (725ms)
+				TypeCache.Initialize (713ms)
+					TypeCache.ScanAssembly (706ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (837ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2022.1.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (46.5 KB). Loaded Objects now: 3916.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 6.705343 ms (FindLiveObjects: 0.763132 ms CreateObjectMapping: 1.284188 ms MarkObjects: 4.504480 ms  DeleteObjects: 0.151553 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3127.095800 seconds.
+  path: Assets/HousePack/Models
+  artifactKey: Guid(24211744f34ae446d9ac99a2e98dd845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models using Guid(24211744f34ae446d9ac99a2e98dd845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ed4360565f152479f7dbdd5e318222') in 0.005648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/HousePack/Models/House1/House1.FBX
+  artifactKey: Guid(c3d67df85cdf2904db4b914ddd22ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1/House1.FBX using Guid(c3d67df85cdf2904db4b914ddd22ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab1160a475e3f47b59e02f5264b17b7') in 1.082651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/HousePack/Models/House1
+  artifactKey: Guid(acae7757c441f4abcaafd4380fcd309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1 using Guid(acae7757c441f4abcaafd4380fcd309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f323428992abe2d7fff4307c57acb9') in 0.001562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 230.311087 seconds.
+  path: Assets/Furniture
+  artifactKey: Guid(b2d73c1a910ca4e9787a91f1fda72bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture using Guid(b2d73c1a910ca4e9787a91f1fda72bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170e52b28241d6a2a63e20a6e62559f2') in 0.001275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.617808 seconds.
+  path: Assets/Furniture/All models.unity
+  artifactKey: Guid(245d0723103d5d140a83d27249c3df7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/All models.unity using Guid(245d0723103d5d140a83d27249c3df7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d182c8f0f871f40a19abd06cd1b6e3') in 0.004704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.200413 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(af9e8ca7437a74b83b0fe4265cfc81b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(af9e8ca7437a74b83b0fe4265cfc81b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44443287418c04797f1927e262350eda') in 0.001997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 333.400662 seconds.
+  path: Assets/HousePack/Models/House10/House10.FBX
+  artifactKey: Guid(d103edeffc2ce7a4398733bb5617f8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House10/House10.FBX using Guid(d103edeffc2ce7a4398733bb5617f8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ec153b5fbf8ced75d6704fa2da976b') in 0.136896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.563127 seconds.
+  path: Assets/HousePack/Models/House9/House9.FBX
+  artifactKey: Guid(d6cb73f66a1e20940a66ebf660563c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House9/House9.FBX using Guid(d6cb73f66a1e20940a66ebf660563c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1018b65c9a9484f64b6e02d921ba03') in 0.091967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.978319 seconds.
+  path: Assets/HousePack/Models/House8/House8.FBX
+  artifactKey: Guid(c1df704ea7a42c14aa1afe9c571c06b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House8/House8.FBX using Guid(c1df704ea7a42c14aa1afe9c571c06b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250719cdb67c4b402ca13df3db7f9bf4') in 0.086432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.248465 seconds.
+  path: Assets/Trees_WorldSpace_FREE
+  artifactKey: Guid(788bed9144d004045bc5ef72aa026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE using Guid(788bed9144d004045bc5ef72aa026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cdae4052d84ee92668e4acc32f28a1') in 0.004055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.210959 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Materials
+  artifactKey: Guid(a3d19863667a83b498cf0750057c4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Materials using Guid(a3d19863667a83b498cf0750057c4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5add1592324980b0d8d148ce937f87c') in 0.003560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.443612 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs
+  artifactKey: Guid(728a68cd5eeefe8468a970ec52fd82aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs using Guid(728a68cd5eeefe8468a970ec52fd82aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4070f226ef9196e06d8cb4554940bae8') in 0.004343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.265424 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/HDRP
+  artifactKey: Guid(b5d145e02e2a23242aaf618df8843a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/HDRP using Guid(b5d145e02e2a23242aaf618df8843a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39261329cdb76cbe21cc742067f055f6') in 0.005145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057849 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeA.prefab
+  artifactKey: Guid(0cf5b7d40deaade44a6ba4686f06ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeA.prefab using Guid(0cf5b7d40deaade44a6ba4686f06ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _ALPHATEST_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON _ALPHATEST_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '72246c96eed59063df43c2114131185e') in 0.584070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeB.prefab
+  artifactKey: Guid(289c1cfb4a683df4f8e00f4884b82faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeB.prefab using Guid(289c1cfb4a683df4f8e00f4884b82faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'e48c29261a866d3be73b0679c83f2140') in 0.072445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004905 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeC_Test.prefab
+  artifactKey: Guid(0c5f566d821df824ba835f9dddf40bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/HDRP/MainTreeC_Test.prefab using Guid(0c5f566d821df824ba835f9dddf40bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'WorldSpaceTrees/HDRP_BarkSwitch': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 773
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'WorldSpaceTrees/HDRP_TreeLeafSwitcher': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1648
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'eeea89eaaa8990bef79685522d2c29cb') in 0.052159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.342808 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/SRP
+  artifactKey: Guid(d18151eac12915846bce3d3746e3d004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/SRP using Guid(d18151eac12915846bce3d3746e3d004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc885f477400fb5cfba479f28cc295') in 0.003941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046793 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTree.prefab
+  artifactKey: Guid(d8067ecd7d4315c4aada5608b42ed73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTree.prefab using Guid(d8067ecd7d4315c4aada5608b42ed73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7748f19cf76f60890e49d73788c0a123') in 1.931454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTreeA_SRP.prefab
+  artifactKey: Guid(3dd1c1bfa60aa34478052278898bb40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTreeA_SRP.prefab using Guid(3dd1c1bfa60aa34478052278898bb40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ac6c562603a25d53ff95b1a761e459') in 0.132934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTreeB_SRP.prefab
+  artifactKey: Guid(81ed4e584e6c4894596fd0ac2c996d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTreeB_SRP.prefab using Guid(81ed4e584e6c4894596fd0ac2c996d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5129891306cf9e3ce80a7fa34438fa96') in 0.129108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTreeC_Test_SRP.prefab
+  artifactKey: Guid(2fe4db782f59f2845bd1bbf8ac6d9603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees_WorldSpace_FREE/Prefabs/SRP/MainTreeC_Test_SRP.prefab using Guid(2fe4db782f59f2845bd1bbf8ac6d9603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59c6b8ad3210261dc0bf25ac8bafc87') in 0.065975 seconds 
